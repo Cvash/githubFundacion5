@@ -7,6 +7,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="stylesheet" href="formulario/css/style.css">
+
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/foundation.css">
         <link rel="stylesheet" href="css/main.css">
@@ -38,47 +40,71 @@
                 </div>
             </header>
 
-        <section class="destacada">
-            <div class="pattern"></div>
-            <img src="img/h_servicios.jpg" alt="Imagen Index">
+            <section class="destacada"> <!-- Imagenes con slide -->
+      
+                <ul data-orbit>
+                    <li><img src="img/comp_afectiva.jpeg" alt=""><div class="contenido text-center">
+                        <h1><span>Computación afectiva</span></h1>
+                    </div></li>
+                    <li><img src="img/fondo_nosotros.jpg" alt=""><div class="contenido text-center">
+                        <h1><span>Rosalind Picard</span></h1>
+                    </div></li>
+                    <li><img src="img/nube.jpg" alt=""><div class="contenido text-center">
+                        <h1><span>Javier Hernández (MIT)</span></h1>
+                    </div></li>
+                    <li><img src="img/investigador.jpg" alt=""><div class="contenido text-center">
+                        <h1><span>Equipo de investigacion de Computacion afectiva</span></h1>
+                    </div></li>
+                    <li><img src="img/comp_afectiva.jpeg" alt=""><div class="contenido text-center">
+                        <h1><span>Formulario</span></h1>
+                    </div></li>
+                </ul>
 
-            <div class="contenido text-center">
-                <h1><span>Conoce lo que podemos hacer</span></h1>
-            </div>
-        </section>
+    
+            </section>
 
         <section class="informacion">
             <div class="row text-center">
-                <h2>Somos especialistas y contamos con 20 años de experiencia</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate in 
-                    suscipit aliquam molestias quibusdam quae minima sunt dolores, illum ipsum 
-                    corrupti, quos qui facilis fugiat ratione sapiente reiciendis. Fuga, alias?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate in 
-                    suscipit aliquam molestias quibusdam quae minima sunt dolores, illum ipsum 
-                    corrupti, quos qui facilis fugiat ratione sapiente reiciendis. Fuga, alias?
-                </p>
+                <h2><b>Javier Hernández</b> investigador del MIT</h2>
+                <ul>
+                    <li>
+                        <p>Miembro del equipo de “Rosalind Picard en el MIT”.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Uno se sus trabajos, coches para ver si el  chofer esta estresado.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Piensa que en el futuro habrá aplicaciones que por ejemplo cuando vayas al cine, 
+                            dependiendo de tu estado de ánimo o reacciones de escenas, esta pueda cambiar y 
+                            se adapte a tus preferencias.
+                        </p>
+                    </li>
+                </ul>
+                <img src="img/javier.png" alt="">
             </div>
         </section>
 
         <section class="servicios">
-            <h2 class="text-center">Conoce nuestros servicios, <span>te daras cuenta de lo que podemos hacer</span></h2>
+            <h2 class="text-center">Conoce nuestros proyectos</h2>
             <div class="row">
                 <ul class="small-block-grid-3">
-                    <li><img src="img/serv_app.svg" alt="servicio de aplicaciones"></li>
-                    <li><img src="img/serv_web.svg" alt="Servicio de aplicaciones"></li>
-                    <li><img src="img/serv_desarrollo.svg" alt="Servicio de aplicaciones"></li>
+                    <li><img src="img/neuro-baby.png" alt="servicio de aplicaciones"><p class="text-center">Neuro baby</p></li>
+                    <li><img src="img/mic-muse.jpg" alt="Servicio de aplicaciones"><p class="text-center">MIC & MUSE</p></li>
+                    <li><img src="img/autoemotive.jpg" alt="Servicio de aplicaciones"><p class="text-center">AutoEmotive</p></li>
                 </ul>
             </div>
         </section>
 
         <section class="contacto text-center">
-            <h2>¿Estás listo para comenzar? podemos ayudarte</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate in 
-                suscipit aliquam molestias quibusdam quae minima sunt dolores, illum ipsum 
-                corrupti, quos qui facilis fugiat ratione sapiente reiciendis. Fuga, alias?
+            <h2>¿Estás listo para comenzar a tomar el volante?</h2>
+            <p>
+                El proyecto que esta siendo invesigado por <b>Javier Hernández</b>, con este proyecto podria ayudar 
+                a muchos conductores, con el cual se podrian a reducir en una gran cantidad los accidentes de transito.
             </p>
             
-            <a href="#" class="button large">Solicitar informes</a>
+            <a href="https://www.youtube.com/watch?v=ZpfY3EorlFo&ab_channel=JudithAmores" class="button large">video de autoEmotive</a>
         </section>
 
 
@@ -110,5 +136,9 @@
 
         <script src="js/foundation.min.js"></script>
         <script src="js/main.js"></script>
+
+        <script>
+            $(document).foundation();
+        </script>
     </body>
 </html>

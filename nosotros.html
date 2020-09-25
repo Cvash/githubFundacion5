@@ -7,6 +7,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="stylesheet" href="formulario/css/style.css">
+
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/foundation.css">
         <link rel="stylesheet" href="css/main.css">
@@ -38,57 +40,76 @@
                 </div>
             </header>
 
-        <section class="destacada">
-            <div class="pattern"></div>
-            <img src="img/h_nosotros.jpg" alt="Imagen Index">
+            <section class="destacada"> <!-- Imagenes con slide -->
+      
+                <ul data-orbit>
+                    <li><img src="img/comp_afectiva.jpeg" alt=""><div class="contenido text-center">
+                        <h1><span>Computación afectiva</span></h1>
+                    </div></li>
+                    <li><img src="img/fondo_nosotros.jpg" alt=""><div class="contenido text-center">
+                        <h1><span>Rosalind Picard</span></h1>
+                    </div></li>
+                    <li><img src="img/nube.jpg" alt=""><div class="contenido text-center">
+                        <h1><span>Javier Hernández (MIT)</span></h1>
+                    </div></li>
+                    <li><img src="img/investigador.jpg" alt=""><div class="contenido text-center">
+                        <h1><span>Equipo de investigacion de Computacion afectiva</span></h1>
+                    </div></li>
+                    <li><img src="img/comp_afectiva.jpeg" alt=""><div class="contenido text-center">
+                        <h1><span>Formulario</span></h1>
+                    </div></li>
+                </ul>
 
-            <div class="contenido text-center">
-                <h1><span>Diseñamos apps para empresas y organizaciones</span></h1>
-            </div>
-        </section>
+    
+            </section>
 
         <section class="agencia text-center">
             <div class="borde">
-                <h2>Somos una agencia de programacion en aplicaciones móviles en Perú</h2>
-                <p>Somos especialistas y contamos con 20 años de experiencia</p>
+                <h2>Rosalind Picard</h2>
+                <img src="img/rosalind.jpg" >
             </div>
         </section>
 
         <section class="aplicaciones">
-            <h2 class="text-center">Aplicaciones, Videojuegos y mucho más</h2>
+            <h2 class="text-center">El libro que definio el termino de "computación afectiva"</h2>
             <section class="row">
                 <div class="large-8 columns">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate in 
-                        suscipit aliquam molestias quibusdam quae minima sunt dolores, illum ipsum 
-                        corrupti, quos qui facilis fugiat ratione sapiente reiciendis. Fuga, alias?
+                    <p>Rama de desarrollo del estudio y desarrollo de la inteligencia artificial (IA)
+                        que hace referencia al diseño de sistemas y dispositivos que pueden reconocer, interpretar
+                        y procesar las emociones humanas.
+                    </p>
+                    <p>
+                        La interaccion afectiva intenta emular la interaccion entre personas combinando tanto el lenguaje
+                        corporal (postura, gestos, distancia y expresiones en general) con el lenguaje verbal.
                     </p>
                 </div>
 
                 <div class="large-4 columns">
-                    <img src="img/app-easy.png" alt="">
+                    <img src="img/book.jpg" alt="">
                 </div>        
             </section>
         </section>
 
         <section class="servicios">
-            <h2 class="text-center">Conoce nuestros servicios, <span>te daras cuenta de lo que podemos hacer</span></h2>
+            <h2 class="text-center">Computacion afectiva</span></h2>
             <div class="row">
                 <ul class="small-block-grid-3">
-                    <li><img src="img/serv_app.svg" alt="servicio de aplicaciones"></li>
-                    <li><img src="img/serv_web.svg" alt="Servicio de aplicaciones"></li>
-                    <li><img src="img/serv_desarrollo.svg" alt="Servicio de aplicaciones"></li>
+                    <li><img src="img/robot.png" alt="servicio de aplicaciones"></li>
+                    <li><img src="img/reconocimiento.png" alt="Servicio de aplicaciones"></li>
+                    <li><img src="img/artificial-neural.png" alt="Servicio de aplicaciones"></li>
                 </ul>
             </div>
         </section>
 
         <section class="contacto text-center">
-            <h2>¿Estás listo para comenzar? podemos ayudarte</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate in 
-                suscipit aliquam molestias quibusdam quae minima sunt dolores, illum ipsum 
-                corrupti, quos qui facilis fugiat ratione sapiente reiciendis. Fuga, alias?
+            <h2>¿Estás listo para comenzar? ver video de computacion afectiva</h2>
+            <h3>Kelly dobson</h3>
+            <img src="img/kelly-dobson.png" alt="kelly Dobson">
+            <p>
+                Programo una licuadora que se lograra activar por voz. Lo que hizo fue simplemente hacer ruido tipo licuadora para que funcionara.
             </p>
             
-            <a href="#" class="button large">Solicitar informes</a>
+            <a href="https://www.youtube.com/watch?v=6DDkwdPaYmk&feature=emb_logo" class="button large">ver video</a>
         </section>
 
 
@@ -120,5 +141,9 @@
 
         <script src="js/foundation.min.js"></script>
         <script src="js/main.js"></script>
+
+        <script>
+            $(document).foundation();
+        </script>
     </body>
 </html>

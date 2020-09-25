@@ -7,6 +7,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="stylesheet" href="formulario/css/style.css">
+
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/foundation.css">
         <link rel="stylesheet" href="css/main.css">
@@ -38,71 +40,91 @@
                 </div>
             </header>
 
-        <section class="destacada">
-            <div class="pattern"></div>
-            <img src="img/h_equipo.jpg" alt="Imagen Index">
+            <section class="destacada"> <!-- Imagenes con slide -->
+      
+                <ul data-orbit>
+                    <li><img src="img/comp_afectiva.jpeg" alt=""><div class="contenido text-center">
+                        <h1><span>Computación afectiva</span></h1>
+                    </div></li>
+                    <li><img src="img/fondo_nosotros.jpg" alt=""><div class="contenido text-center">
+                        <h1><span>Rosalind Picard</span></h1>
+                    </div></li>
+                    <li><img src="img/nube.jpg" alt=""><div class="contenido text-center">
+                        <h1><span>Javier Hernández (MIT)</span></h1>
+                    </div></li>
+                    <li><img src="img/investigador.jpg" alt=""><div class="contenido text-center">
+                        <h1><span>Equipo de investigacion de Computacion afectiva</span></h1>
+                    </div></li>
+                    <li><img src="img/comp_afectiva.jpeg" alt=""><div class="contenido text-center">
+                        <h1><span>Formulario</span></h1>
+                    </div></li>
+                </ul>
 
-            <div class="contenido text-center">
-                <h1><span>Conoce al equipo de trabajo</span></h1>
-            </div>
-        </section>
+    
+            </section>
 
         <section class="informacion">
             <div class="row">
-                <h2 class="text-center">Aplicaciones, videojuegos y mucho mas</h2>
+                <h2 class="text-center">Investigadores y quienes usan la computación afectiva</h2>
 
                 <div class="large-3 columns">
                     <div class="panel text-center">
-                        <img src="img/sin_foto.svg" alt="Equipo de trabajo">
+                        <img src="img/facebook.jpg" alt="Equipo de trabajo">
 
-                        <p>Nombre 1</p>
+                        <p>Facebook</p>
                         <Small>CEO</Small>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate in 
-                            suscipit aliquam molestias quibusdam quae minima sunt dolores, illum ipsum 
-                            corrupti, quos qui facilis fugiat ratione sapiente reiciendis. Fuga, alias?
+                        <p>
+                            La plataforma mundial mas usada en la actualidad tampoco se queda atrás, 
+                            también usa la computación afectiva. Ellos aseguran que lo usan con fines 
+                            de poder hacer más fácil la llegada de productos y servicios.
                         </p>
                     </div>
                 </div>
 
                 <div class="large-3 columns">
                     <div class="panel text-center">
-                        <img src="img/sin_foto.svg" alt="Equipo de trabajo">
+                        <img src="img/naoko.jpg" alt="Equipo de trabajo">
 
-                        <p>Nombre 1</p>
+                        <p>Naoko</p>
                         <Small>CEO</Small>
                         
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate in 
-                            suscipit aliquam molestias quibusdam quae minima sunt dolores, illum ipsum 
-                            corrupti, quos qui facilis fugiat ratione sapiente reiciendis. Fuga, alias?
+                        <p>
+                            Una de las primeras artistas que investigo el uso de la computación afectiva con 
+                            fines artísticos. Usando el reconocimiento de emociones para la realización de 
+                            instalaciones interactivas y creando personajes virtuales para poder responder 
+                            y captar las emociones de los visitantes.
+
                         </p>
                     </div>
                 </div>
 
                 <div class="large-3 columns">
                     <div class="panel text-center">
-                        <img src="img/sin_foto.svg" alt="Equipo de trabajo">
+                        <img src="img/affectiva.png" alt="Equipo de trabajo">
 
-                        <p>Nombre 1</p>
+                        <p>Affectiva</p>
                         <Small>CEO</Small>
                         
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate in 
-                            suscipit aliquam molestias quibusdam quae minima sunt dolores, illum ipsum 
-                            corrupti, quos qui facilis fugiat ratione sapiente reiciendis. Fuga, alias?
+                        <p>
+                            Rosalind Picard, creo una corporación llamada “Afectiva”, dedicada el desarrollo y 
+                            venta de aplicaciones y dispositivos capaces de detectar emociones.
                         </p>
                     </div>
                 </div>
 
                 <div class="large-3 columns">
                     <div class="panel text-center">
-                        <img src="img/sin_foto.svg" alt="Equipo de trabajo">
+                        <img src="img/Rosalind-Picard.png" alt="Equipo de trabajo">
 
-                        <p>Nombre 1</p>
+                        <p>Rosalind Picard</p>
                         <Small>CEO</Small>
                         
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate in 
-                            suscipit aliquam molestias quibusdam quae minima sunt dolores, illum ipsum 
-                            corrupti, quos qui facilis fugiat ratione sapiente reiciendis. Fuga, alias?
+                        <p>
+                            Gracias a ella, pionera, se populariza este termino en su libro “Affective Computing”, 
+                            en 1997. Ella lo define como: Una disciplina dentro del campo de la IA que intenta 
+                            desarrollar métodos de computación para reconocer las emociones humanas y generar 
+                            emociones sintéticas. 
                         </p>
                     </div>
                 </div>
@@ -141,5 +163,9 @@
 
         <script src="js/foundation.min.js"></script>
         <script src="js/main.js"></script>
+
+        <script>
+            $(document).foundation();
+        </script>
     </body>
 </html>
